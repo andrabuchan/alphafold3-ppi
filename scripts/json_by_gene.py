@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+#creates a separate alphafold3 compatable json file for each protein in a .faa file.
+#usage: python3 json_by_gene.py -i input_file.faa -o output_directory/
+
 import argparse
 
 parser = argparse.ArgumentParser()
